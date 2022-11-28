@@ -1,0 +1,73 @@
+
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    
+    width:auto;
+    padding: 60px 10rem;
+}
+
+.titles {
+    display: flex;
+    height: 80px;
+    border-radius: 20px 20px 0 0;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem ;
+    background-color: aquamarine;
+    
+    font-size: x-large;
+    background: #085078;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #85D8CE, #4794A3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #85D8CE, #4794A3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.risc_translate{
+    display: flex;
+    height: auto;
+}
+.translate{
+    display: flex;
+    width: 50%;
+    height: 16.25rem;
+    color: white;
+    background-color: #652739;
+    justify-content: center;
+    padding: 20px;
+    white-space: pre-line;
+    line-height: 25px;
+    overflow-y:auto;
+}
+.codemirror {
+    width: 50%;
+    font-size: 15px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: #85D8CE;
+}
+
+.but{
+    display: flex;
+   
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 500;
+    background-color: #76C7C4;
+    cursor: pointer;
+
+}

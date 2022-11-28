@@ -1,0 +1,36 @@
+
+<div class="container">
+
+    <div class="titles">
+        <div>
+            <h3>Risc-V</h3>
+        </div>
+    
+        <i class="ri-arrow-right-line ri-xl"></i>
+        <div>
+            <h3>
+                Hexadecimal
+            </h3>
+        </div>
+    </div>
+    <div class="risc_translate">
+        <div class="codemirror">
+            <ngx-codemirror id="code"
+                [options]="codeMirrorOptions"
+                [(ngModel)]="query"
+                (ngModelChange)="setEditorContent($event)">
+            </ngx-codemirror>
+        </div>
+        <div class="translate">
+            {{translate}}
+        </div>
+    </div>
+</div>
+<div >
+    <div class="button">
+        <button class="but"(click)="traducir()"><i style="padding-right: 10px; margin: auto;" class="ri-hammer-line"></i>Translate</button>
+    </div>
+    <div style="padding-top: 20px;"class="button">
+        <button class="but"(click)="copyFile()"><i style="padding-right: 10px; margin: auto;" class="ri-file-copy-line"></i>Copy to clipboard</button>
+    </div>
+</div>
